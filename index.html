@@ -3,87 +3,60 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Animal Rescue</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Arial', sans-serif;
-      background-color: #ffe6f0;
-      color: #333;
-    }
-    header {
-      background: #ff99cc;
-      padding: 20px;
-      text-align: center;
-      color: white;
-      font-size: 2em;
-      letter-spacing: 2px;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      background: #ffb3d9;
-      padding: 10px;
-    }
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: white;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    .hero {
-      text-align: center;
-      padding: 40px;
-    }
-    .hero img {
-      width: 80%;
-      border-radius: 20px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    }
-    .section {
-      padding: 40px;
-      text-align: center;
-    }
-    .cards {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
-    .card {
-      background: white;
-      border-radius: 15px;
-      width: 250px;
-      padding: 15px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
-    .card img {
-      width: 100%;
-      border-radius: 10px;
-    }
-    footer {
-      background: #ff99cc;
-      color: white;
-      text-align: center;
-      padding: 15px;
-    }
-  </style>
+  <title>Animal Rescue 💗</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header>
-  Animal Rescue 💖
+  <h1>Animal Rescue 💖</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#adopt">Adopt</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
 
-<nav>
-  <a href="#">Home</a>
-  <a href="#about">About</a>
-  <a href="#adopt">Adopt</a>
-  <a href="#contact">Contact</a>
-</nav>
-
 <section class="hero">
+  <h2>Saving Lives, One Paw at a Time 🐾</h2>
+  <img src="images/dog.jpg" alt="Dog">
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>We rescue animals and help them find loving homes.</p>
+</section>
+
+<section id="adopt">
+  <h2>Animals for Adoption</h2>
+  <div class="cards">
+    <div class="card">
+      <img src="images/dog2.jpg">
+      <h3>Buddy</h3>
+      <p>Playful and friendly!</p>
+    </div>
+    <div class="card">
+      <img src="images/cat.jpg">
+      <h3>Luna</h3>
+      <p>Sweet and calm.</p>
+    </div>
+    <div class="card">
+      <img src="images/puppy.jpg">
+      <h3>Max</h3>
+      <p>Energetic puppy!</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: rescue@email.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Animal Rescue</p>
+</footer>
+
+</body>
 </html>
